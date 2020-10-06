@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <title></title>
   </head>
   <body>
@@ -29,7 +29,7 @@
       <div class="jumbotron jumbotron-fluid bg-color-2">
         <div class="container txt-center">
           <img src="img/avatar.svg" alt="Avatar" class="avatar">
-          <h1 class="display-4 text-uppercase">START BOOTSTRAP</h1>
+          <h1 class="title-jumbotron text-uppercase">START BOOTSTRAP</h1>
         <div class="divider-control"><div class="outer-line"></div><span class="glyphicon glyphicon-star" aria-hidden="true"></span><div class="outer-line"></div></div>
           <p>Graphic Artist - Web Designer - Illustrator</p>
         </div>
@@ -38,8 +38,80 @@
     <main>
       <section id="portfolio">
         <div class="container">
-          <h1 class="text-center text-uppercase txt-color-1 portfolio-title">Portfolio</h1>
+          <h1 class="text-center text-uppercase txt-color-1 title-section">Portfolio</h1>
           <div class="divider-control "><div class="outer-line bg-color-1"></div><span class="glyphicon glyphicon-star txt-color-1" aria-hidden="true"></span><div class="outer-line bg-color-1"></div></div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="portfolio-item">
+                <img src="img/cabin.png" alt="Portfolio" class="img-portfolio">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="portfolio-item">
+                <img src="img/cake.png" alt="Portfolio" class="img-portfolio">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="portfolio-item">
+                <img src="img/circus.png" alt="Portfolio" class="img-portfolio">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="portfolio-item">
+                <img src="img/game.png" alt="Portfolio" class="img-portfolio">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="portfolio-item">
+                <img src="img/safe.png" alt="Portfolio" class="img-portfolio">
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5">
+              <div class="portfolio-item">
+                <img src="img/submarine.png" alt="Portfolio" class="img-portfolio">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class=" bg-color-2">
+        <div class="container ">
+          <h1 class="text-center text-uppercase title-section">About</h1>
+          <div class="divider-control "><div class="outer-line"></div><span class="glyphicon glyphicon-star " aria-hidden="true"></span><div class="outer-line"></div></div>
+          <div class="row mb-5">
+            <div class="col-lg-4 col-md-offset-2">
+              <p class="txt-about">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+            </div>
+            <div class="col-lg-4 ">
+                <p class="txt-about">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+            </div>
+          </div>
 
+          <div class="text-center"><a class="btn btn-xl btn-outline-light "href=""><span class="glyphicon glyphicon-download-alt"></span> Free Download!</a>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+          <div class="container">
+            <h1 class="text-center text-uppercase txt-color-1 title-section">Contact Me</h1>
+            <div class="divider-control "><div class="outer-line bg-color-1"></div><span class="glyphicon glyphicon-star txt-color-1" aria-hidden="true"></span><div class="outer-line bg-color-1"></div></div>
+            <div class="row">
+              <form>
+                <div class="form-control">
+                  <input type="text" placeholder="Name">
+                </div>
+                <div class="form-control">
+                  <input type="text" placeholder="Name">
+                </div>
+                <div class="form-control">
+                  <input type="text" placeholder="Name">
+                </div>
+                <div class="form-control">
+                  <textarea rows="5" placeholder="Message"></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
   </body>
 </html>
