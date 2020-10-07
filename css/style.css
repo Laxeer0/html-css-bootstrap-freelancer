@@ -88,6 +88,98 @@ a{
   }
 
 }
+.form-freelancer{
+
+  display:block;
+  margin-bottom: 30px;
+}
+.form-freelancer input,textarea{
+  width:100%;
+  border:0;
+  border-bottom:1px solid #e9ecef;
+  color:#2c3e50;
+  font-size: 20px;
+  font-weight: 400;
+  resize:none;
+
+}
+.form-freelancer-alt{
+  width:30%;
+  border:0;
+  color:#2c3e50;
+  font-size: 20px;
+  font-weight: 400;
+  resize:none;
+
+}
+
+.img-portfolio{
+  width:90%;
+    border-radius: 13px;
+
+}
+
+.portfolio-item{
+  width: 100%;
+  text-align:center;
+}
+
+.txt-about{
+  font-size:1.8rem;
+  font-weight: 300;
+}
+
+#about{
+  padding:8rem 0;
+}
+
+.top-footer{
+  padding:40px 0;
+}
+
+section{
+  margin:30px 0;
+}
+
+.footer-item{
+  text-align:center;
+}
+.footer-item h2{
+  margin-bottom:30px;
+  font-weight: 700;
+}
+.footer-item p{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.bottom-footer{
+  padding:20px 0;
+  text-align:center;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Overwrite class*/
+.lh-150{
+  height: 150px;
+}
+.lh-50{
+  height: 50px;
+}
 
 .bg-color-1{
   background-color: #2c3e50;
@@ -99,6 +191,11 @@ a{
   color:#fff;
 }
 
+.bg-color-3{
+  background-color: #1d2833;
+  color:#fff;
+}
+
 .txt-color-1{
   color: #2c3e50;
 }
@@ -107,23 +204,11 @@ a{
   color: #1abc9c;
 }
 
-.img-portfolio{
-  width:100%;
-    border-radius: 13px;
-}
 
 .mb-5{
   margin-bottom:3rem;
 }
 
-.txt-about{
-  font-size:1.8rem;
-  font-weight: 300;
-}
-
-#about{
-  padding:8rem 0;
-}
 
 
 .btn-xl{
@@ -141,4 +226,12 @@ a{
 .btn-outline-light:hover{
   background: white;
   color:black;
+}
+
+.btn-social{
+  border-radius: 100%;
+  padding:10px;
+  width:50px;
+  height: 50px;
+  font-size:20px;
 }
